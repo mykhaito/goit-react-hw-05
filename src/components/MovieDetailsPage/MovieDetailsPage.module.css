@@ -1,0 +1,31 @@
+.flex{
+
+}
+.header{
+    margin-bottom: 70px;
+}
+.image{
+    width: 300px;
+}
+.overview{
+width: 600px;
+}
+.flextwo{
+display: flex;
+flex-direction: row;
+gap: 100px;
+margin-bottom: 50px;
+}
+
+.flexthree{
+    display: flex;
+    flex-direction: column;
+}
+.overflex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.additional{
+    margin-bottom: 20px;
+}
