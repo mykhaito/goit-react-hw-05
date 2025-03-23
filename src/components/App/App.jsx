@@ -1,10 +1,10 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 
-const HomePage = lazy(() => import("../HomePage/HomePage.jsx"));
-const MoviesPage = lazy(() => import("../MoviesPage/MoviesPage.jsx"));
-const MovieDetailsPage = lazy(() => import("../MovieDetailsPage/MovieDetailsPage.jsx"));
-const NotFoundPage = lazy(() => import("../NotFoundPage/NotFoundPage.jsx"));
+const HomePage = lazy(() => import("../../pages/HomePage/HomePage.jsx"));
+const MoviesPage = lazy(() => import("../../pages/MoviesPage/MoviesPage.jsx"));
+const MovieDetailsPage = lazy(() => import("../../pages/MovieDetailsPage/MovieDetailsPage.jsx"));
+const NotFoundPage = lazy(() => import("../../pages/NotFoundPage/NotFoundPage.jsx"));
 const MovieCast = lazy(() => import("../MovieCast/MovieCast.jsx"));
 const MovieReviews = lazy(() => import("../MovieReviews/MovieReviews.jsx"));
 

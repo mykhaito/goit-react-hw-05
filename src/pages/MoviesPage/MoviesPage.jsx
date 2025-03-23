@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import MovieList from "../MovieList/MovieList.jsx";
+import MovieList from "../../components/MovieList/MovieList.jsx";
 
 const API_KEY = "689572509e575407e4e0662a5d37d1d5";
 const SEARCH_URL = "https://api.themoviedb.org/3/search/movie";
